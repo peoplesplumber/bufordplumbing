@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buford Plumbing Experts</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="bg-dark text-white py-3">
     <div class="container">
@@ -24,10 +27,11 @@
   </header>
   <section class="hero-section">
     <div class="container">
+      <img src="images/logo_small.png" alt="Buford Plumbing Experts" class="img-fluid mb-3">
       <h1>Reliable Plumbing Services in Buford</h1>
       <h2>
         Expert solutions for all your plumbing needs
-        Call Us Today <a href="tel:770-771-3601">770-771-3601</a>
+        Call Us Today <a href="tel:770-771-3601" class="text-white">770-771-3601</a>
       </h2>
       <a href="#contact" class="btn btn-primary btn-lg">Get a Quote</a>
     </div>
@@ -74,9 +78,10 @@
       <div class="text-center mb-5">
         <h2>About Us</h2>
         <p>Experienced & Trusted Plumbers</p>
-          <p>Buford Plumbing Experts has been serving the Buford community with top-notch plumbing services for over 20 years.
-            Licensed and insured plumber dedicated to providing reliable and efficient solutions for both residential and
-            commercial clients.</p>
+        <p>Buford Plumbing Experts has been serving the Buford community with top-notch plumbing services for over 20
+          years.
+          Licensed and insured plumber dedicated to providing reliable and efficient solutions for both residential and
+          commercial clients.</p>
       </div>
     </div>
   </section>
@@ -85,6 +90,24 @@
       <div class="text-center mb-5">
         <h2>Contact Us</h2>
         <p>Get in touch with us for all your plumbing needs</p>
+
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <form action="https://formspree.io/f/mbjbdelo" method="POST" class="bg-light p-4 rounded shadow-sm">
+              <div class="mb-3">
+                <label for="user_mail" class="form-label">Your E-Mail:</label>
+                <input type="email" class="form-control" id="user_mail" name="user_mail" required>
+              </div>
+              <div class="mb-3">
+                <label for="user_message" class="form-label">Message:</label>
+                <textarea class="form-control" id="user_message" name="user_message" rows="5" required></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-12 text-center">
@@ -103,6 +126,9 @@
   <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2024 Buford Plumbing Experts. All rights reserved.</p>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
